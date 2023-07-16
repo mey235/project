@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".USD">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="275dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="11dp"
+        android:background="#000000"
+        android:text="USA dollar history"
+        android:textAlignment="center"
+        android:textColor="#FDFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="380dp"
+        android:layout_height="665dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="5dp"
+        android:text="The history of the United States dollar began with moves by the Founding Fathers of the United States of America to establish a national currency based on the Spanish silver dollar, which had been in use in the North American colonies of the United Kingdom for over 100 years prior to the United States Declaration of Independence. The new Congress's Coinage Act of 1792 established the United States dollar as the country's standard unit of money, creating the United States Mint tasked with producing and circulating coinage. Initially defined under a bimetallic standard in terms of a fixed quantity of silver or gold, it formally adopted the gold standard in 1900, and finally eliminated all links to gold in 1971.
+
+Since the founding of the Federal Reserve System in 1913 as the central bank of the United States, the dollar has been primarily issued in the form of Federal Reserve Notes. The United States dollar is now the world's primary reserve currency held by governments worldwide for use in international trade."
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

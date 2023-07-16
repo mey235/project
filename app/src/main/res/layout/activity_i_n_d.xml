@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IND">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="275dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="11dp"
+        android:background="#000000"
+        android:text="IND rupee history"
+        android:textAlignment="center"
+        android:textColor="#FDFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="400dp"
+        android:layout_height="660dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="5dp"
+        android:text="The British settlements in Western India, South India, and the Eastern Province of Bengal (Calcutta) independently developed different coinages in consonance with the local acceptability of the coins for the purposes of trade.
+
+Indian rupee (from 1884)
+India 1 Rupee 1884 Victoria (obverse)
+Obverse: Crowned bust of Queen Victoria
+India 1 Rupee 1884 Victoria (reverse)
+Reverse: Face value, country and date
+Coin made of 91.7% silver
+
+Half anna (2 pices) coin; an anna = 4 pices, George VI series, 1945
+There are many fake coins of East India Company, with Indian gods depicted on the obverse side as shown in side-bar. Original East India Company coins show only the coat of arms of the East India Company.
+
+The coins of Bengal were developed in the Mughal style and those of Madras mostly in a South Indian style. The English coins of Western India developed along Mughal as well as English patterns. It was only in AD 1717 that the British obtained permission from the Emperor Farrukh Siyar to coin Mughal money at the Bombay mint. The British gold coins were termed Carolina, the silver coins Anglina, the copper coins Cupperoon and tin coins Tinny. By early 1830, the British had become the dominant power in India. The Coinage Act of 1835 provided for uniform coinage throughout India. The new coins had the effigy of William IV on the obverse and the value on the reverse in English and Persian. The coins issued after 1840 bore the portrait of Queen Victoria. The first coinage under the crown was issued in 1862 and in 1877 Queen Victoria assumed the title the Empress of India. The gold silver ratio widened during 1870–1910. Unlike India, Britain was on the gold standard. To meet the Home Charges (i.e., expenditure in England) the colonial government had to remit a larger number of rupees due to the ratio change; this necessitated increased taxation and unrest."
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

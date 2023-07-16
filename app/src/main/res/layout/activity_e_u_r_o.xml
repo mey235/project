@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EURO">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="275dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="11dp"
+        android:background="#000000"
+        android:text="european euro history"
+        android:textAlignment="center"
+        android:textColor="#FDFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="400dp"
+        android:layout_height="660dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="5dp"
+        android:text="The currency was introduced in non-physical form (traveller's cheques, electronic transfers, banking, etc.) at midnight on 1 January 1999, when the national currencies of participating countries (the eurozone) ceased to exist independently in that their exchange rates were locked at fixed rates against each other, effectively making them mere non-decimal subdivisions of the euro. The euro thus became the successor to the European Currency Unit (ECU). The notes and coins for the old currencies, however, continued to be used as legal tender until new notes and coins were introduced on 1 January 2002 (having been distributed in small amounts in the previous December). Beginning on 1 January 1999, all bonds and other forms of government debt by eurozone nations were denominated in euros.
+
+The value of the euro, which started at US$1.1686 on 31 December 1998, rose during its first day of trading, Monday, 4 January 1999, closing at approximately US$1.18.[16] It was rapidly taken up and dealers were surprised by the speed at which it replaced the national currencies. Trading in the Deutsche Mark was expected to continue in parallel but vanished as soon as the markets opened.[17] However, by the end of 1999 the euro had dropped to parity with the dollar[4] leading to emergency action from the G7 to support the euro in 2001.[18]
+
+Later in 2000, Denmark held a referendum on whether to abandon their opt-out from the euro. The referendum resulted in a decision to retain the krone, and also set back plans for a referendum in the UK as a result.[19] The procedure used to fix the irrevocable conversion rate of 340.750 between the Greek drachma and the euro was different, since the euro by then was already two years old. While the conversion rates for the initial eleven currencies were determined only hours before the euro was introduce"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

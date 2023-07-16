@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/fullscreenBackgroundColor"
+    android:theme="@style/ThemeOverlay.MyApplication.FullscreenContainer"
+    tools:context=".FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="@style/Widget.Theme.MyApplication.NoActionBar.ButtonBar.Fullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="113dp"
+            android:layout_height="79dp"
+            android:layout_gravity="center_vertical"
+
+            android:backgroundTint="#DF1111"
+            android:rotationX="-4"
+            android:text="go"
+            android:textColor="#02050E"
+            android:textSize="24sp"
+            android:translationX="130dp"
+            android:translationY="20dp" />
+
+        <TextView
+            android:id="@+id/fullscreen_content"
+            android:layout_width="391dp"
+            android:layout_height="763dp"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:text="SIMPLE CURRENCY CONVERTER"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:translationY="-300dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="382dp"
+            android:layout_height="73dp"
+            android:gravity="center"
+            android:text="press go to continue"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:translationY="200dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:backgroundTint="#E80F0F"
+            android:gravity="center"
+            android:text="Calculator"
+            android:textSize="30sp"
+            android:translationY="500dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="history of currencies"
+            android:textStyle="bold"
+            android:translationX="0dp"
+            android:translationY="600dp"
+            app:backgroundTint="#E60707" />
+
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RUBE">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="275dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="11dp"
+        android:background="#000000"
+        android:text="RUB russian history"
+        android:textAlignment="center"
+        android:textColor="#FDFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="373dp"
+        android:layout_height="681dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="16dp"
+        android:text="The ruble (American English) or rouble (Commonwealth English) (/ˈruːbəl/; Russian: рубль, IPA: [rublʲ]) is the currency unit of Belarus, Russia and a few small, partially recognised states in Eastern Europe.
+
+As of 2022, the three currencies named ruble in circulation are: the Belarusian ruble (BYN, Br) in Belarus, the Russian ruble (RUB, ₽) in Russia, Abkhazia and South Ossetia, and the Transnistrian ruble in the unrecognised state of Transnistria. These currencies are subdivided into one hundred kopeks. No kopek is currently formally subdivided, although denga (½ kopek) and polushka (½ denga, thus ¼ kopek) were minted until the 19th century.
+
+Historically until the 15th century, the grivna, ruble and denga were used in the Kievan Rus' and the Grand Duchy of Moscow. Since the 15th century until 1704, the Counting Ruble was used in the Tsardom of Russia. The Russian Empire used the Silver Ruble during 1704–1897 and the Gold Ruble during 1897–1917. The Soviet ruble officially replaced the imperial ruble in 1922 and continued to be used in the Soviet Union until 1993, when it was formally replaced with the Russian ruble in the Russian Federation and by 14 other currencies in other post Soviet states.
+
+In the past, several other countries influenced by Russia and the Soviet Union had currency units that were also named rubles, including the Armenian ruble, Latvian rublis and Tajikistani ruble."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

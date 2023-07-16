@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YEN">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="275dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="11dp"
+        android:background="#000000"
+        android:text="japanese Yen history"
+        android:textAlignment="center"
+        android:textColor="#FDFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="400dp"
+        android:layout_height="660dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="5dp"
+        android:text="The yen (Japanese: 円, symbol: ¥; code: JPY; also abbreviated as JP¥) is the official currency of Japan. It is the third-most traded currency in the foreign exchange market, after the United States dollar (US$) and the euro.[2] It is also widely used as a third reserve currency after the US dollar and the euro.
+
+The New Currency Act of 1871 introduced Japan's modern currency system, with the yen defined as 1.5 g (0.048 troy ounces) of gold, or 24.26 g (0.780 troy ounces) of silver, and divided decimally into 100 sen or 1,000 rin. The yen replaced the previous Tokugawa coinage as well as the various hansatsu paper currencies issued by feudal han (fiefs). The Bank of Japan was founded in 1882 and given a monopoly on controlling the money supply.[3]
+
+Following World War II, the yen lost much of its prewar value. To stabilize the Japanese economy, the exchange rate of the yen was fixed at ¥360 per US$ as part of the Bretton Woods system. When that system was abandoned in 1971, the yen became undervalued and was allowed to float. The yen had appreciated to a peak of ¥271 per US$ in 1973, then underwent periods of depreciation and appreciation due to the 1973 oil crisis, arriving at a value of ¥227 per US$ by 1980."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
